@@ -60,7 +60,9 @@ navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    border-bottom-style: inset;
+    border-bottom-style: groove;
+    border-color:rgb(141, 231, 231);
+    border-width: 5px;
     
 }
 #nav-link{
@@ -84,9 +86,9 @@ navbar {
     margin: 0px;
     margin-left 0px;
     width: 100vw;
-    border-top-style: groove;
-    border-bottom-style: solid;
-    border-width: 30px;
+    border-bottom-style:outset;
+    border-color:rgb(141, 231, 231);
+    border-width: 4px;
 }
 h1 {
     font-size: 75px;
